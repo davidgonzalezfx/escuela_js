@@ -58,12 +58,26 @@ ul:hover {
 }
 /* Search input */
 .main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   height: 300px;
+  border-radius: 0px 0px 40px 40px;
 }
 .main__title {
   color: white;
   font-size: 25px;
 }
+
+.categories__title {
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  padding-left: 30px;
+  /* width: 100%; */
+}
+
 .input {
   background-color: rgba(255, 255, 255, 0.1);
   border: 2px solid white;
@@ -85,6 +99,10 @@ ul:hover {
   overflow: scroll;
   padding: 30px;
   position: relative;
+  box-sizing: border-box;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
 }
 .carousel__container {
   white-space: nowrap;
@@ -129,7 +147,12 @@ ul:hover {
   left: 0;
   right: 0;
   bottom: 0;
+  top: 0;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
 .carousel-item__details img {
   width: 30px;
@@ -140,4 +163,32 @@ ul:hover {
 }
 .carousel-item__details:hover {
   opacity: 1;
+}
+/* Footer */
+.footer {
+  background: #011627;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  padding-left: 30px;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+/* Responsive */
+@media only screen and (max-width: 600px) {
+  .main__description--title {
+    font-size: 30px;
+  }
+  .footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
 }
