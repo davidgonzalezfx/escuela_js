@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  background-color: #011627;
+  font-family: 'Mulish', sans-serif;
+}
+/* Header */
+.header {
+  background-color: #011627;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__img {
+  width: 200px;
+  margin: 10px 0 0 10px;
+}
+.register {
+  /* background: linear-gradient(#011627, #E6AF2E); */
+  background-color: #011627;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 30px;
+  min-height: calc(100vh - 150px);
+}
+.register__container {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid white;
+  border-radius: 40px;
+  color: white;
+  padding: 60px 68px 40px;
+  min-height: 700px;
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.register__container--form {
+  display: flex;
+  flex-direction: column;
+}
+.register__container--form label {
+  font-size: 14px;
+}
+
+.register__container--login {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+.register__container--login:hover {
+  text-decoration: underline;
+}
+
+.input {
+  background-color: transparent;
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 2px solid white;
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 0px 20px;
+  outline: none;
+  height: 50px;
+}
+::placeholder {
+  color: white;
+}
+.button {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  height: 50px;
+  letter-spacing: 1px;
+  margin: 10px 0px;
+}
+
+.footer {
+  background: #011627;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  padding-left: 30px;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
