@@ -19,30 +19,7 @@
 
     <button>Play/Pause</button>
 
-    <script>
-      const video = document.querySelector("video");
-      const button = document.querySelector("button");
-
-      function MediaPlayer (config) {
-        this.media = config.el
-        console.log(this.media)
-        console.log(this.media.play)
-      }
-
-      MediaPlayer.prototype.play = function () {
-        this.media.play();
-      }
-      MediaPlayer.prototype.pause = function () {
-        this.media.pause();
-      }
-
-      const player = new MediaPlayer({ el: video });
-
-      const toggle = () => video.paused === true ? player.play() : player.pause();
-
-      button.onclick = () => toggle();
-
-    </script>
+    <script src="/assets/index.js"></script>
   </main>
 </body>
 
