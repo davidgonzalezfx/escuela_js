@@ -1,0 +1,20 @@
+{
+  "name": "@davidgonzalezfx/platzimediaplayer",
+  "version": "1.0.0",
+  "description": "Platzi media player plugin built at https://platzi.com/escuela-javascript/",
+  "main": "lib/MediaPlayer.js",
+  "scripts": {
+    "build": "tsc src/**/*.ts src/plugins/*.ts src/plugins/**/*.ts --outDir lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "front",
+    "vanillajs"
+  ],
+  "author": "davidgonzalezfx",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
+}
