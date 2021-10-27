@@ -1,7 +1,7 @@
 import MediaPlayer from '@davidgonzalezfx/platzimediaplayer';
 import AutoPlay from '@davidgonzalezfx/platzimediaplayer/lib/plugins/AutoPlay';
 import AutoPause from '@davidgonzalezfx/platzimediaplayer/lib/plugins/AutoPause';
-import Ads from '@davidgonzalezfx/platzimediaplayer/plugins/lib/Ads';
+import Ads from '@davidgonzalezfx/platzimediaplayer/lib/plugins/Ads';
 
 const video = document.querySelector('video');
 const player = new MediaPlayer({

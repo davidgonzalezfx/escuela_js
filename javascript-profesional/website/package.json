@@ -20,6 +20,6 @@
     "last 1 Chrome version"
   ],
   "dependencies": {
-    "@davidgonzalezfx/platzimediaplayer": "^1.0.0"
+    "@davidgonzalezfx/platzimediaplayer": "^1.0.1"
   }
 }
