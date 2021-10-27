@@ -1,6 +1,6 @@
 {
   "name": "@davidgonzalezfx/platzimediaplayer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Platzi media player plugin built at https://platzi.com/escuela-javascript/",
   "main": "lib/MediaPlayer.js",
   "scripts": {
